@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lvez-dia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/15 12:59:56 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/03/29 13:37:22 by lvez-dia         ###   ########.fr       */
+/*   Created: 2024/04/08 16:12:25 by lvez-dia          #+#    #+#             */
+/*   Updated: 2024/04/09 11:06:59 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,8 +43,8 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 /*#include <stdio.h>
 int	main(void)
 {
-	char	src[] = "Hola mundo";
-	char	dest[] = "Adios mundo";
+	char	src[] = "42 Madrid";
+	char	dest[] = "Cursus";
 	ft_memmove(dest, src, sizeof(src));
 	printf("%s", dest);
 	return (0);

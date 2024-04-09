@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lvez-dia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/13 15:08:51 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/03/27 15:12:31 by lvez-dia         ###   ########.fr       */
+/*   Created: 2024/04/05 13:11:37 by lvez-dia          #+#    #+#             */
+/*   Updated: 2024/04/05 13:28:08 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,12 @@ void	*ft_memset(void *b, int c, size_t len)
 /*#include <stdio.h>
 int	main(void)
 {
-	char	b[] = "hbcwoub ";
+	char	str[] = "42 Madrid";
 	char	c = 'a';
-	size_t	len = 3;
+	size_t	len = 6;
 
-	printf("Texto original: %s\n",b);
-	ft_memset(b, c, len);
-	printf("Texto final: %s\n", b);
+	printf("Original text: %s\n",str);
+	ft_memset(str, c, len);
+	printf("Final text: %s\n", str);
 	return (0);
 }*/

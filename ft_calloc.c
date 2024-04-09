@@ -1,38 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/27 10:29:20 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/09 11:14:56 by lvez-dia         ###   ########.fr       */
+/*   Created: 2024/04/08 19:13:54 by lvez-dia          #+#    #+#             */
+/*   Updated: 2024/04/08 19:24:48 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+void	*ft_calloc(size_t count, size_t size)
 {
-	int	i;
+	size_t	total_size;
+	void	*pointer;
 
-	i = 0;
-	while (s[i])
-	{
-		if (s[i] == (unsigned char) c)
-			return ((char *)&s[i]);
-		i++;
-	}
-	if ((unsigned char) c == '\0')
-		return ((char *)&s[i]);
-	return (0);
+	if (size != 0 && count > SIZE_MAX / size)
+		return (0);
+	total_size = count * size;
+	pointer = malloc(total_size);
+	if (pointer == 0)
+		return (0);
+	ft_memset(pointer, 0, total_size);
+	return (pointer);
 }
-/*int	main(void)
-{
-	const char	*s = "42 Madrid";
-	int	c = 'a';
-	char	*result;
-	result = ft_strchr(s, c);
-	printf("Position: %ld\n", result - s);
-	return (0);
-}*/

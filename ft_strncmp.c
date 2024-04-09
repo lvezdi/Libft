@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/29 17:32:52 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/02 13:18:43 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/09 11:30:59 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,11 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 /*#include <stdio.h>
 int	main(void)
 {
-	char	s1[] = "Hola";
-	char	s2[] = "Holz";
-	size_t	n = 4;
+	char	s1[] = "42 Madrid";
+	char	s2[] = "42 Malaga";
+	size_t	n = 8;
 
 	int	result = ft_strncmp(s1, s2, n);
-	printf("Comparación: %d\n", result);
+	printf("Comparison: %d\n", result);
 	return (0);
 }*/

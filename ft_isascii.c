@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:18:05 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/03/27 15:18:12 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/04 16:48:18 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	ft_isascii(int c)
 /*#include <stdio.h>
 int	main(void)
 {
-	int	ascii = 'h';
+	char ascii = 'h';
 	int	test;
 	test = ft_isascii(ascii);
 	printf("%d", test);

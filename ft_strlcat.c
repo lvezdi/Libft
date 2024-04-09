@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/29 13:33:45 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/03/29 13:57:38 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/09 11:33:24 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,13 +35,13 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 /*#include <stdio.h>
 int main (void)
 {
-    char src[] = "Mundo";
-	char dest[50] = "Hola";
+    char src[] = "Madrid";
+	char dest[50] = "42 ";
 	size_t len;
 
 	len = ft_strlcat(dest, src, sizeof(dest) - 1);
-	printf("Tamaño: %lu \n", sizeof(dest) - 1);
-	printf("Destino: %s \n", dest);
-	printf("Longitud: %zu\n", len);
+	printf("Size: %lu \n", sizeof(dest) - 1);
+	printf("Destination: %s \n", dest);
+	printf("Length: %zu\n", len);
     return 0;
 }*/

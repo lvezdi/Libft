@@ -21,6 +21,8 @@ SRC = ft_isalpha.c \
 	  ft_memcmp.c \
 	  ft_strnstr.c \
 	  ft_atoi.c \
+	  ft_calloc.c \
+	  ft_strdup.c \
 	  
 OBJS = $(SRC:.c=.o)
 
@@ -43,4 +45,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY : clean fclean
+.PHONY : clean fclean re

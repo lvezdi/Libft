@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:15:45 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/03/27 15:15:56 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/05 13:41:18 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,25 +14,25 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	unsigned char	*tempstr;
+	unsigned char	*str;
 	size_t			i;
 
-	tempstr = (unsigned char *) s;
+	str = (unsigned char *) s;
 	i = 0;
 	while (i < n)
 	{
-		tempstr[i] = 0;
+		str[i] = 0;
 		i++;
 	}
 }
 /*#include <stdio.h>
 int	main(void)
 {
-	char	b[] = "hbcwoub ";
+	char	str[] = "42 Madrid";
 	size_t	len = 3;
 
-	printf("Texto original: %s\n",b);
-	ft_bzero(b, len);
-	printf("Texto final: %s\n", b);
+	printf("Original: %s\n", str);
+	ft_bzero(str, len);
+	printf("Final text: %s\n", str);
 	return (0);
 }*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lvez-dia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/13 14:50:45 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/03/27 15:14:00 by lvez-dia         ###   ########.fr       */
+/*   Created: 2024/04/05 12:42:22 by lvez-dia          #+#    #+#             */
+/*   Updated: 2024/04/05 13:09:15 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ size_t	ft_strlen(const char *s)
 /*#include <stdio.h>
 int	main(void)
 {
-	int	str[] = "Hola mundo";
+	char	str[] = "42 Madrid";
 	int	test;
 	test = ft_strlen(str);
 	printf("%d", test);

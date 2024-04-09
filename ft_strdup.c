@@ -1,38 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/27 10:29:20 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/09 11:14:56 by lvez-dia         ###   ########.fr       */
+/*   Created: 2024/04/08 20:00:46 by lvez-dia          #+#    #+#             */
+/*   Updated: 2024/04/09 11:41:19 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+char	*strdup(const char *s1);
 {
-	int	i;
+	char	*dest;
+	char	*principio;
 
-	i = 0;
-	while (s[i])
-	{
-		if (s[i] == (unsigned char) c)
-			return ((char *)&s[i]);
-		i++;
-	}
-	if ((unsigned char) c == '\0')
-		return ((char *)&s[i]);
-	return (0);
+	dest = (char *)malloc(ft_strlen(s) + 1);
+	if (dest == NULL)
+		return (NULL);
+	principio = dest;
+	while (*s != '\0')
+		*dest++ = *s++;
+	*dest = '\0';
+	return (principio);
 }
-/*int	main(void)
-{
-	const char	*s = "42 Madrid";
-	int	c = 'a';
-	char	*result;
-	result = ft_strchr(s, c);
-	printf("Position: %ld\n", result - s);
-	return (0);
-}*/

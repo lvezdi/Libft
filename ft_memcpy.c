@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:01:46 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/03/29 13:15:25 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/09 10:57:09 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,13 +33,12 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 /*#include <stdio.h>
 int main(void)
 {
-    char    src [] = "mem";
-    char    dst [] = "zyxwvutsrqponmlkjihgfedcba";
-    size_t  len = 14;
-
-    printf("Texto original: %s\n", src);
-    ft_memcpy(src, dst, len);
-    dst[len] = '\0';
-    printf("Texto final: %s\n", dst);
+    char    s[] = "42 Madrid";
+    char    d[10];
+	size_t	len = 10;
+   
+    printf("Original text: %s\n", s);
+    ft_memcpy(d, s, len);
+    printf("Final text: %s\n", d);
     return (0);
 }*/
