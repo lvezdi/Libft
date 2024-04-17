@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 11:10:22 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/02 15:00:05 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/09 15:24:08 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,12 @@ void	*ft_memchr(const void *s, int c, size_t n)
 /*#include <stdio.h>
 int	main(void)
 {
-
-
+	const char	str[] = "Madrid.42";
+	const char	ch = '.';
+	size_t	len = 9;
+	void	*ptr;
+	
+	ptr = ft_memchr(str, ch, len);
+	printf("String after: %s", ptr);
+	return (0);	
 }*/

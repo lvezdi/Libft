@@ -6,23 +6,34 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 20:00:46 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/09 11:41:19 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/10 10:54:49 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*strdup(const char *s1);
+char	*ft_strdup(const char *s1)
 {
-	char	*dest;
+	char	*dst;
 	char	*principio;
 
-	dest = (char *)malloc(ft_strlen(s) + 1);
-	if (dest == NULL)
-		return (NULL);
-	principio = dest;
-	while (*s != '\0')
-		*dest++ = *s++;
-	*dest = '\0';
+	dst = (char *)malloc(ft_strlen(s1) + 1);
+	if (dst == 0)
+		return (0);
+	principio = dst;
+	while (*s1 != '\0')
+		*dst++ = *s1++;
+	*dst = '\0';
 	return (principio);
 }
+/*#include <stdio.h>
+int	main(void)
+{
+	char	original[] = "42 Madrid";
+	char	*copy = ft_strdup(original);
+
+	printf("Original: %s\n", original);
+	printf("Copy: %s\n", copy);
+	free(copy);
+	return (0);
+}*/

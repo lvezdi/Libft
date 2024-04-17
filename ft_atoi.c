@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 15:55:43 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/08 19:50:51 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/09 16:47:29 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,10 @@ int	ft_atoi(const char *str)
 /*#include <stdio.h>
 int	main(void)
 {
-	
+	const char	str[] = "   -5448hgx355";
+	int	result;
 
-
+	result = ft_atoi(str);
+	printf("Conversion: %d", result);
+	return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 15:16:53 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/08 16:05:28 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/09 16:44:37 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,12 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 /*#include <stdio.h>
 int	main(void)
 {
+	const char	largestring[] = "Welcome to 42 Madrid";
+	const char	smallstring[] = "42";
+	size_t	len = 20;
+	char	*ptr;
 
-
+	ptr = ft_strnstr(largestring, smallstring, len);
+	printf("%s", ptr);
+	return (0);
 }*/
