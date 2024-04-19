@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 15:45:15 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/17 11:43:15 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/19 21:54:56 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,12 @@ char	*ft_strtrim(char const *s1, char const *set)
 	else
 		return (trimed);
 }
+
+/* int	main(void)
+{
+	char	s[] = "xxcxx42 Madridxxcxx";
+	char	set [] = "xc";
+
+	printf("%s", ft_strtrim(s, set));
+	return (0);
+} */

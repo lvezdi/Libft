@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
+/*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 20:00:46 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/10 10:54:49 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/19 20:44:47 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,16 +15,16 @@
 char	*ft_strdup(const char *s1)
 {
 	char	*dst;
-	char	*principio;
+	char	*begin;
 
 	dst = (char *)malloc(ft_strlen(s1) + 1);
 	if (dst == 0)
 		return (0);
-	principio = dst;
+	begin = dst;
 	while (*s1 != '\0')
 		*dst++ = *s1++;
 	*dst = '\0';
-	return (principio);
+	return (begin);
 }
 /*#include <stdio.h>
 int	main(void)

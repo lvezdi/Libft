@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 18:19:51 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/17 11:36:38 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/19 21:08:46 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static int	ft_len(int n)
 {
-	int	n;
+	int	i;
 
 	i = 1;
 	if (n < 0)
@@ -29,7 +29,8 @@ static int	ft_len(int n)
 
 static char	*ft_fill_array(char *str, int num, int len)
 {
-	while (num != 0)
+	str[len--] = '\0';
+	while (num > 0)
 	{
 		str[len--] = (num % 10) + '0';
 		num /= 10;
@@ -39,37 +40,32 @@ static char	*ft_fill_array(char *str, int num, int len)
 
 char	*ft_itoa(int n)
 {
-	char		*str;
-	int			sign;
-	int			len;
+	char			*str;
+	int				len;
 	unsigned int	num;
 
-	sign = 1;
 	len = ft_len(n);
 	if (n == -2147483648)
 		return (ft_strdup("-2147483648"));
-	str = (char *) calloc (sizeof (char) * (len + 1));
+	str = (char *) ft_calloc ((len + 1), sizeof (char));
 	if (!str)
 		return (NULL);
 	if (n == 0)
 		str[0] = '0';
 	if (n < 0)
 	{
-		sign *= -1;
 		num = n * -1;
 		str[0] = '-';
 	}
 	else
 		num = n;
-	str = ft_fill_array(str, num, len);
-	return (str);
+	return (ft_fill_array(str, num, len));
 }
-
-/*int	main(void)
+/* 
+int	main(void)
 {
 	int	num = -638;
-	char	*result = ft_itoa(num);
 
-	printf("Result: %s", result);
+	printf("Result: %s", ft_itoa(num));
 	return (0);
-}*/
+} */

@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 15:12:13 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/16 15:47:21 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/19 20:27:58 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,17 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
+
+/* char	ft_mapi(unsigned int i, char c)
+{
+	return (c + 1);
+}
+
+#include <stdio.h>
+int	main(void)
+{
+	char	*s = "31L`cqhc";
+	
+	printf("%s", ft_strmapi(s, ft_mapi));
+	return(0);
+} */
