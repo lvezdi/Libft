@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 10:56:50 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/12 12:20:38 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/28 13:18:48 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int	main(void)
 	int len = 2;
 	int start = 7;
 	char	*str = ft_substr(s, start, len);
-	printf("Reques: Len: %d \nStart: %d \nString: %s \nResponse: %s,
-	Expected: 42",len, start, s, str);
+	//printf("Reques: Len: %d \nStart: %d \nString: %s \nResponse: %s,
+		//Expected: 42",len, start, s, str);
 	return (0);	
 }*/

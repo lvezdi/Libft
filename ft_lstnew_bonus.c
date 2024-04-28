@@ -1,29 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isascii.c                                       :+:      :+:    :+:   */
+/*   ft_lstnew_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/27 15:18:05 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/28 13:14:04 by lvez-dia         ###   ########.fr       */
+/*   Created: 2024/04/28 10:58:27 by lvez-dia          #+#    #+#             */
+/*   Updated: 2024/04/28 12:38:52 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isascii(int c)
+t_list	*ft_lstnew(void *content)
 {
-	if (c >= 0 && c <= 127)
-		return (1);
-	return (0);
+	t_list	*node;
+
+	node = malloc(sizeof(t_list));
+	if (node == NULL)
+		return (NULL);
+	node->content = content;
+	node->next = NULL;
+	return (node);
 }
-/*#include <stdio.h>
-int	main(void)
+
+/*
+int	main()
 {
-	char ascii = 'h';
-	int	test;
-	test = ft_isascii(ascii);
-	printf("%d", test);
-	return (0);
+	char *c;
+	t_list *f;
+
+	c = "42";
+	f = ft_lstnew(c);
+	printf("Return: %s \n", f -> content);
+
+	return(0);
 }*/

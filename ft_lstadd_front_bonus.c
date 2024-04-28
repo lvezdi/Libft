@@ -1,29 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isascii.c                                       :+:      :+:    :+:   */
+/*   ft_lstadd_front_bonus.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/27 15:18:05 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/28 13:14:04 by lvez-dia         ###   ########.fr       */
+/*   Created: 2024/04/28 10:58:02 by lvez-dia          #+#    #+#             */
+/*   Updated: 2024/04/28 10:58:05 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isascii(int c)
+void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-	if (c >= 0 && c <= 127)
-		return (1);
-	return (0);
+	if (lst && new)
+	{
+		new->next = *lst;
+		*lst = new;
+	}
 }
-/*#include <stdio.h>
-int	main(void)
-{
-	char ascii = 'h';
-	int	test;
-	test = ft_isascii(ascii);
-	printf("%d", test);
-	return (0);
-}*/

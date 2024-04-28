@@ -1,29 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isascii.c                                       :+:      :+:    :+:   */
+/*   ft_lstiter_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/27 15:18:05 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/28 13:14:04 by lvez-dia         ###   ########.fr       */
+/*   Created: 2024/04/28 10:45:05 by lvez-dia          #+#    #+#             */
+/*   Updated: 2024/04/28 10:55:18 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isascii(int c)
+void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	if (c >= 0 && c <= 127)
-		return (1);
-	return (0);
+	if (lst != 0 && f != 0)
+	{
+		ft_lstiter(lst->next, f);
+		f(lst->content);
+	}
 }
-/*#include <stdio.h>
-int	main(void)
-{
-	char ascii = 'h';
-	int	test;
-	test = ft_isascii(ascii);
-	printf("%d", test);
-	return (0);
-}*/

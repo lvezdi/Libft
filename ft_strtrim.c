@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 15:45:15 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/19 21:54:56 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/28 13:18:58 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	end;
 
 	start = 0;
-	if (s1 == NULL)
+	if (s1 == NULL || set == NULL)
 		return (NULL);
 	end = ft_strlen((char *)s1);
 	while (s1[start] != '\0' && ft_strchr(set, s1[start]))
@@ -33,11 +33,11 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (trimed);
 }
 
-/* int	main(void)
+/*int	main(void)
 {
 	char	s[] = "xxcxx42 Madridxxcxx";
 	char	set [] = "xc";
 
-	printf("%s", ft_strtrim(s, set));
+	printf("%s", ft_strtrim(s, NULL));
 	return (0);
-} */
+}*/

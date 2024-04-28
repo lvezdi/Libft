@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/29 13:39:16 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/19 19:43:46 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/28 11:00:54 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,12 @@
 # include <unistd.h>
 # include <ctype.h>
 # include <string.h>
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}					t_list;
 
 void				ft_bzero(void *s, size_t n);
 void				ft_putchar_fd(char c, int fd);
@@ -59,7 +65,7 @@ char				*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 
 char				**ft_split(char const *s, char c);
 
-/*t_list				*ft_lstnew(void *content);
+t_list				*ft_lstnew(void *content);
 t_list				*ft_lstlast(t_list *lst);
 t_list				*ft_lstmap(t_list *lst, void *(*f)(void *),
 						void (*del)(void *));
@@ -70,6 +76,6 @@ void				ft_lstdelone(t_list *lst, void (*del)(void*));
 void				ft_lstclear(t_list **lst, void (*del)(void*));
 void				ft_lstiter(t_list *lst, void (*f)(void *));
 
-int					ft_lstsize(t_list *lst);*/
+int					ft_lstsize(t_list *lst);
 
 #endif

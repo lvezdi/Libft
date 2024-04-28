@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 19:00:20 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/19 19:47:41 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/28 13:19:18 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ static void	ft_fill_array(char *array, char *buffer, size_t start, size_t end)
 	array[i] = '\0';
 }
 
-static char	**split(char *str, char **array, char c, int end)
+static char	**ft_split_continuo(char *str, char **array, char c, int end)
 {
 	size_t	i;
 	size_t	start;
@@ -96,11 +96,24 @@ char	**ft_split(char const *s, char c)
 	char	**array;
 	size_t	end;
 
+	if (s == NULL)
+		return (NULL);
 	end = 0;
 	str = (char *)s;
 	array = NULL;
-	return (split(str, array, c, end));
+	return (ft_split_continuo(str, array, c, end));
 }
 
 /*#include <stdio.h>
-int	main(void)*/
+int	main(void)
+{
+	char **f = ft_split(NULL, 'o');
+	if (f)
+	{
+		for (int i = 0; f[i] != NULL; i++)
+		{
+    		printf("%s\n", f[i]);
+		}
+	}
+    return (0);
+}*/
