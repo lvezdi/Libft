@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:18:05 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/28 13:14:04 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:29:09 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,7 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	char ascii = 'h';
 	int	test;

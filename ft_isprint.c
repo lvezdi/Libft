@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/05 12:40:37 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/05 12:41:55 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:29:55 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,7 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	int	print = 'g';
 	int	test;

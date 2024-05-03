@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 12:31:41 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/28 13:18:37 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:39:38 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,7 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	const char	s[] = "42 Madrid";
 	int	c = 'r';

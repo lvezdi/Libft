@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:01:46 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/19 21:20:22 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:32:54 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*#include <stdio.h>
-int main(void)
+/*int main(void)
 {
     char    s[] = "42 Madrid";
     char    d[10];

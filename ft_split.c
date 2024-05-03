@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 19:00:20 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/28 13:19:18 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:35:05 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,8 +104,7 @@ char	**ft_split(char const *s, char c)
 	return (ft_split_continuo(str, array, c, end));
 }
 
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	char **f = ft_split(NULL, 'o');
 	if (f)

@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/29 17:32:52 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/09 11:30:59 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:38:34 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	char	s1[] = "42 Madrid";
 	char	s2[] = "42 Malaga";

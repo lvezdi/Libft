@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 16:12:25 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/09 11:06:59 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:33:16 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	char	src[] = "42 Madrid";
 	char	dest[] = "Cursus";

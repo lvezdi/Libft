@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/29 13:33:45 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/09 11:33:24 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:36:38 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,9 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
 	size_t	j;
-	int		total;
 
 	i = 0;
 	j = 0;
-	total = (ft_strlen(dst) + ft_strlen(src));
 	while (i < dstsize && dst[i] != '\0')
 		i++;
 	while ((i + j + 1) < dstsize && src[j] != '\0')
@@ -32,8 +30,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 		dst[i + j] = '\0';
 	return (i + ft_strlen(src));
 }
-/*#include <stdio.h>
-int main (void)
+/*int main (void)
 {
     char src[] = "Madrid";
 	char dest[50] = "42 ";

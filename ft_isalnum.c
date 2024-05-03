@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:16:20 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/03/27 15:16:31 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:27:52 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,7 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	int	alnum = 'G';
 	int	test;

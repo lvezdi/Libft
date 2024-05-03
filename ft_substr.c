@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 10:56:50 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/28 13:18:48 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:40:05 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,21 +16,20 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*substr;
 
-	if (s == '\0')
-		return (0);
+	if (s == NULL)
+		return (NULL);
 	if (ft_strlen(s) < start)
 		return (ft_strdup("\0"));
 	if (ft_strlen(s + start) < len)
 		len = ft_strlen(s + start);
 	substr = malloc(len + 1);
-	if (substr == '\0')
-		return (0);
+	if (substr == NULL)
+		return (NULL);
 	ft_strlcpy(substr, s + start, len + 1);
 	return (substr);
 }
 
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	char *s = "Madrid 42";
 	int len = 2;

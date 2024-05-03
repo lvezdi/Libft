@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 19:13:54 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/10 10:09:54 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:25:42 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,13 +21,12 @@ void	*ft_calloc(size_t count, size_t size)
 		return (0);
 	total_size = count * size;
 	pointer = malloc(total_size);
-	if (pointer == 0)
-		return (0);
+	if (pointer == NULL)
+		return (NULL);
 	ft_memset(pointer, 0, total_size);
 	return (pointer);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	int	*ptr;
 	ptr = ft_calloc(20, sizeof(int));

@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 11:10:27 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/09 11:34:38 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:37:02 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (len);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	char src[] = "42 Madrid";
 	char dst [20];

@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:15:45 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/05 13:41:18 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:25:04 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,7 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	char	str[] = "42 Madrid";
 	size_t	len = 3;

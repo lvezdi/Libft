@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 15:55:43 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/09 16:47:29 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:24:33 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,7 @@ int	ft_atoi(const char *str)
 	}
 	return (sign * result);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	const char	str[] = "   -5448hgx355";
 	int	result;

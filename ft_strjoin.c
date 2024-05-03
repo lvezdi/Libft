@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 10:59:50 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/11 13:25:04 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:36:10 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i + j] = '\0';
 	return (str);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	char	str1[] = "42 ";
 	char	str2[] = "Madrid";

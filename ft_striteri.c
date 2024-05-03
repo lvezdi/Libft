@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 15:11:50 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/19 20:14:52 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:10:13 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	}
 }
 
-/* void ft_iteri(unsigned int i, char *s)
+/*void ft_iteri(unsigned int i, char *s)
 {
 	printf("Char: %c, Index: %i \n", s[0] , i);
 }
@@ -35,4 +35,4 @@ int main()
 {
 	char *s = "42 Madrid";
 	ft_striteri(s, ft_iteri);
-} */
+}*

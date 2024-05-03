@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/05 12:42:22 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/05 13:09:15 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:37:30 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,7 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	char	str[] = "42 Madrid";
 	int	test;

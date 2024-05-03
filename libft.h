@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/29 13:39:16 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/28 11:00:54 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/04/30 16:49:03 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <unistd.h>
 # include <ctype.h>
 # include <string.h>
+#include <stdint.h>
 
 typedef struct s_list
 {

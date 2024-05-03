@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 11:10:22 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/04/09 15:24:08 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:30:48 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	const char	str[] = "Madrid.42";
 	const char	ch = '.';

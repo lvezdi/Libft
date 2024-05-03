@@ -6,7 +6,7 @@
 /*   By: lvez-dia <lvez-dia@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:16:47 by lvez-dia          #+#    #+#             */
-/*   Updated: 2024/03/27 15:16:56 by lvez-dia         ###   ########.fr       */
+/*   Updated: 2024/05/03 13:28:32 by lvez-dia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,7 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-/*#include <stdio.h>
-int	main(void)
+/*int	main(void)
 {
 	int	alpha = 'k';
 	int	test;
