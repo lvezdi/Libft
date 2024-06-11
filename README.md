@@ -1,4 +1,4 @@
-# Libft :tw-1f1ec-1f1e7:
+# Libft
 This C project aims to recreate a library of standard functions that are useful in future projects. These functions are essential for common programming tasks and provide a solid foundation for building more complex applications. 
 
 ### List of functions: 
@@ -51,7 +51,7 @@ This C project aims to recreate a library of standard functions that are useful 
 - Makefile: Specify how to compile and link your code.
 
 
-# Libft :tw-1f1ea-1f1f8:
+# Libft
 Este proyecto en C tiene como propósito recrear una biblioteca de funciones estándar que resultan útiles en proyectos futuros. Estas funciones son esenciales para tareas comunes en programación y proporcionan una base sólida para construir aplicaciones más complejas. 
 
 ### Lista de funciones: 
