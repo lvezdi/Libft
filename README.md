@@ -1,4 +1,4 @@
-# Libft
+# Libft 🇬🇧 
 This C project aims to recreate a library of standard functions that are useful in future projects. These functions are essential for common programming tasks and provide a solid foundation for building more complex applications. 
 
 ### List of functions: 
@@ -47,11 +47,11 @@ This C project aims to recreate a library of standard functions that are useful 
 
 ### Files:
 - Header files (.h): Create an .h file containing only the declarations of the functions you want to include in the library.
-- Implementation (.c) files: Next, create a .c file to implement the code for each function.
+- Implementation (.c) files: Create a .c file to implement the code for each function.
 - Makefile: Specify how to compile and link your code.
 
 
-# Libft
+# Libft 🇪🇸
 Este proyecto en C tiene como propósito recrear una biblioteca de funciones estándar que resultan útiles en proyectos futuros. Estas funciones son esenciales para tareas comunes en programación y proporcionan una base sólida para construir aplicaciones más complejas. 
 
 ### Lista de funciones: 
@@ -78,8 +78,8 @@ Este proyecto en C tiene como propósito recrear una biblioteca de funciones est
 - ft_strnstr: Busca una subcadena en una cadena.
 - ft_atoi: Convierte una cadena en un entero.
 - ft_calloc: Asigna memoria y la inicializa a cero.
-#### Funciones adicionales:
 - ft_strdup: Duplica una cadena.
+#### Funciones adicionales:
 - ft_substr: Extrae una subcadena de una cadena.
 - ft_strjoin: Concatena dos cadenas.
 - ft_strtrim: Elimina los caracteres de espacio en blanco al principio y al final de una cadena.
@@ -100,5 +100,5 @@ Este proyecto en C tiene como propósito recrear una biblioteca de funciones est
 
 ### Archivos:
 - Archivos de cabecera (.h): Crea un archivo .h que contenga solo las declaraciones de las funciones que deseas incluir en la biblioteca.
-- Archivos de implementación (.c): Luego, crea un archivo .c para implementar el código de cada función.
+- Archivos de implementación (.c): Crea un archivo .c para implementar el código de cada función.
 - Archivo Makefile: Especifica cómo compilar y enlazar tu código.
