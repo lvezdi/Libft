@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/score-125%20%2F%20100-2ea44f?style=for-the-badge" class="right-align" alt="Score Badge">
+    
 # Libft 🇬🇧 
 This C project aims to recreate a library of standard functions that are useful in future projects. These functions are essential for common programming tasks and provide a solid foundation for building more complex applications. 
 
