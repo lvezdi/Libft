@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/bonus-included-success"/>
     <img src="https://img.shields.io/badge/-125%2F100-success?logo=42&logoColor=fff" />
     <img src="https://img.shields.io/badge/Change_Language-English-blue" align="right">
-    <a href="https://github.com/lvezdi/Libft/blob/master/README.md">
+    <a href="https://https://github.com/lvezdi/Libft/tree/main#Libft" >
     </a>
 </div>
 </div>
