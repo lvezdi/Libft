@@ -3,10 +3,10 @@
 	<img src="https://img.shields.io/badge/leaks-none-success" />
     	<img src="https://img.shields.io/badge/bonus-included-success"/>
     	<img src="https://img.shields.io/badge/-125%2F100-success?logo=42&logoColor=fff" />
-        <img src="https://img.shields.io/badge/Cambiar_Idioma-Español-blue" align="right">
-    	<a href="https://github.com/tu-usuario/tu-repositorio/tree/main/README.en.md">
-    </a>
+  	<a href="https://https://github.com/lvezdi/Libft/blob/master/Documentation/README.md" >
+   	 <img src="https://img.shields.io/badge/Cambiar_Idioma-Español-blue" align="right"></a>
 </div>
+
 # Libft
 This C project aims to recreate a library of standard functions that are useful in future projects. These functions are essential for common programming tasks and provide a solid foundation for building more complex applications.
 ### List of functions:
