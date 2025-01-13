@@ -1,12 +1,10 @@
 <div align="center">
 	<img src="https://img.shields.io/badge/norminette-passing-success"/>
 	<img src="https://img.shields.io/badge/leaks-none-success" />
-    <img src="https://img.shields.io/badge/bonus-included-success"/>
-    <img src="https://img.shields.io/badge/-125%2F100-success?logo=42&logoColor=fff" />
-    <img src="https://img.shields.io/badge/Change_Language-English-blue" align="right">
-    <a href="https://https://github.com/lvezdi/Libft/tree/main#Libft" >
-    </a>
-</div>
+	<img src="https://img.shields.io/badge/bonus-included-success"/>
+	<img src="https://img.shields.io/badge/-125%2F100-success?logo=42&logoColor=fff" />
+  	<a href="https://github.com/lvezdi/Libft/tree/main#Libft" >
+	<img src="https://img.shields.io/badge/Change_Language-English-blue" align="right"></a>
 </div>
 
 # Libft
