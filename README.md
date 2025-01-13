@@ -3,7 +3,7 @@
 	<img src="https://img.shields.io/badge/leaks-none-success" />
     	<img src="https://img.shields.io/badge/bonus-included-success"/>
     	<img src="https://img.shields.io/badge/-125%2F100-success?logo=42&logoColor=fff" />
-  	<a href="https://github.com/lvezdi/Libft/Documentation/README.md" >
+  	<a href="https://github.com/lvezdi/Libft/blob/master/Documentation/README.md" >
    	<img src="https://img.shields.io/badge/Cambiar_Idioma-Español-blue" align="right"></a>
 </div>
 
